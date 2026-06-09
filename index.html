@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!--I added HTML Assignment 1 as a title-->
-    <title> HTML Assignment 1</title>
-    <!--I added a header with my name-->
+    <!-- Sets the character encoding so the browser can display text correctly -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the webpage responsive on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Displays the title in the browser tab -->
+    <title>HTML Assignment 1</title>
+</head>
+
+<body>
+
+    <!-- The header contains the main heading of the webpage -->
     <header>
         <h1>Lounes</h1>
     </header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
     <article>
         <h2>About Me</h2>
-        <!--I introduced myself in this paragraph -->
-        <p>My name is Lounes Madaoui, and I am originally from Algeria. I moved to Canada two years ago to continue my education and pursue new opportunities. I am currently studying Interactive Media Design at Algonquin College. I enjoy learning about technology, web development, and programming. In my free time, I like playing football, listening to music, and spending time with my family and friends. And I have a favorite quote which is :</p>
+
+        <!-- A paragraph element is used to organize personal information into readable content -->
+        <p>
+            My name is Lounes Madaoui, and I am originally from Algeria. I moved to Canada two years ago to continue my education and pursue new opportunities. I am currently studying Interactive Media Design at Algonquin College. I enjoy learning about technology, web development, and programming. In my free time, I like playing football, listening to music, and spending time with my family and friends. And I have a favorite quote which is:
+        </p>
+
+        <!-- The blockquote element is used to display a quotation from another source -->
         <blockquote>
-            <!--I added my favorite quote -->
             <p>“Dreams are not what we see when we sleep; rather, they are what keep us from sleeping.”</p>
             <cite>A.P.J. Abdul Kalam</cite>
-            <p>My favourite course is <abbr title="Photography foundation">PF</abbr>. And my 1<sup>st</sup> <em>impression was positive</em> .</p>
-            <footer>&copy; 2026 Lounes Madaoui. All rights reserved.</footer>
-            
-            
-
         </blockquote>
+
+        <!-- Semantic HTML elements are used to show an abbreviation, superscript text, and emphasized text -->
+        <p>
+            My favourite course is <abbr title="Photography Foundation">PF</abbr>. And my 1<sup>st</sup> impression was <em>positive</em>.
+        </p>
     </article>
+
+    <!-- The footer contains information that applies to the entire webpage -->
+    <footer>
+        &copy; 2026 Lounes Madaoui. All rights reserved.
+    </footer>
+
 </body>
+
 </html>
+<!-- The image element is used to display a personal photo and add visual interest to the webpage -->
+<img src="images/Me.jpg" alt="Photo of Lounes Madaoui" width="250">
+<h3>My Hobbies</h3>
+
+<!-- An unordered list is used to display hobbies because the order is not important -->
+<ul>
+    <li>Playing football</li>
+    <li>Listening to music</li>
+    <li>Learning web development</li>
+</ul>
+<!-- This link allows users to navigate to the notes page -->
+<p><a href="notes.html">View My HTML Notes</a></p>
